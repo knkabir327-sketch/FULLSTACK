@@ -19,7 +19,7 @@ function App() {
       // console.log("punima");
       async function getData(){
         console.log(".....loading");
-        let responce=await fetch("https://amazone-clone-759o.onrender.com/api/products");
+        let responce=await fetch("https://fullstack-6wfh.onrender.com/api/products");
            let data=  await responce.json();
            console.log(data);
            setProducts(data);
